@@ -1,0 +1,167 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .tabBox {
+  width: 620px;
+}
+
+.container .tabBox .buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom-width: 0px;
+  padding-bottom: 0px;
+}
+
+.container .tabBox .buttons ul li {
+  list-style: none;
+}
+
+.container .tabBox .buttons ul li button {
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 130px;
+  background-color: #adadad;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container .tabBox .tabContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .tabBox .tabContent .tabs {
+  border: solid 2px #aaaaaa;
+  border-top: solid 5px #45a1a0;
+  width: 620px;
+  height: 300px;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+}
+
+.container .tabBox .tabContent .tabs .tabtitle {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  left: 38px;
+  top: 40px;
+}
+
+.container .tabBox .tabContent .tabs .tabdescription {
+  color: grey;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .tabBox .tabContent .tabhome {
+  position: absolute;
+  z-index: 1;
+}
+
+.container .tabBox .tabContent .tabhome .images {
+  background-image: url(https://testour.az/uploads/1574347945r82IJ-.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 180px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px -1px #8b8b8b;
+          box-shadow: 0px 0px 15px -1px #8b8b8b;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.container .tabBox .tabContent .tabIsmayilli {
+  position: absolute;
+  display: none;
+  z-index: 3;
+}
+
+.container .tabBox .tabContent .tabIsmayilli .images {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Pay%C4%B1z%C4%B1n_%C9%99n_g%C3%B6z%C9%99l_an%C4%B1.jpg/1200px-Pay%C4%B1z%C4%B1n_%C9%99n_g%C3%B6z%C9%99l_an%C4%B1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 180px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px -1px #8b8b8b;
+          box-shadow: 0px 0px 15px -1px #8b8b8b;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.container .tabBox .tabContent .tabQobustan {
+  position: absolute;
+  display: none;
+  z-index: 4;
+}
+
+.container .tabBox .tabContent .tabQobustan .images {
+  background-image: url(https://aztc.gov.az/uploads/posts/qobustan_59c8b09a8fd7f.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 180px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px -1px #8b8b8b;
+          box-shadow: 0px 0px 15px -1px #8b8b8b;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.container .tabBox .tabContent .tabBaku {
+  position: absolute;
+  display: none;
+  z-index: 2;
+}
+
+.container .tabBox .tabContent .tabBaku .images {
+  background-image: url(https://www.thediaryofanomad.com/wp-content/w3-webp/uploads/2020/08/best-places-visit-in-baku-cityscape.jpgw3.webp);
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 180px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px -1px #8b8b8b;
+          box-shadow: 0px 0px 15px -1px #8b8b8b;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+/*# sourceMappingURL=main.css.map */
